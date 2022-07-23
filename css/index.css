@@ -1,0 +1,55 @@
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    width: 30vw;
+    height: 30vw;
+    line-height: 3vh;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 5vw;
+    background-color: cornflowerblue;
+}
+
+span {
+    color: gold;
+}
+
+h2 {
+    font-size: 2.5vh;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+tfoot {
+    margin: 1px;
+    padding: 5px;
+    font-size: 2.5vh;
+    background-color: aliceblue;
+}
+
+tfoot {
+    flex-direction: row;
+}
